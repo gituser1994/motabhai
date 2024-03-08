@@ -56,8 +56,8 @@ body {
 }
 @media screen and (max-width: 567px) {
   .btn.btn-primary {
-    font-size: 0.9rem;
-    padding: 0 1.2rem;
+    font-size: 0.8rem;
+    padding: 0 1rem;
   }
 }
 .btn.btn-secondary {
@@ -84,8 +84,8 @@ body {
 }
 @media screen and (max-width: 567px) {
   .btn.btn-secondary {
-    font-size: 0.9rem;
-    padding: 0 1.2rem;
+    font-size: 0.8rem;
+    padding: 0 1rem;
   }
 }
 
@@ -106,6 +106,11 @@ body {
 .banner-section {
   padding: 5.5rem 0;
 }
+@media screen and (max-width: 767px) {
+  .banner-section {
+    padding: 3rem 0;
+  }
+}
 .banner-section .banner-left h3 {
   margin-bottom: 2rem;
   font-size: 1.5rem;
@@ -119,6 +124,11 @@ body {
   align-items: center;
   grid-gap: 15px;
   margin-top: 3rem;
+}
+@media screen and (max-width: 767px) {
+  .banner-section .banner-left .actions {
+    margin-top: 1rem;
+  }
 }
 .banner-section .banner-left .actions .telegram-btn svg {
   width: 60px;
@@ -135,6 +145,12 @@ body {
 }
 .banner-section .banner-right {
   text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .banner-section .banner-right {
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
 .banner-section .banner-right img {
   width: 100%;
@@ -227,11 +243,21 @@ body {
 .tokenomics-section {
   padding: 8rem 0;
 }
+@media screen and (max-width: 767px) {
+  .tokenomics-section {
+    padding: 5rem 0;
+  }
+}
 .tokenomics-section .container {
   position: relative;
 }
 .tokenomics-section .coin-right {
   text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .tokenomics-section .coin-right {
+    text-align: center;
+  }
 }
 .tokenomics-section .coin-right img {
   max-width: 200px;
@@ -273,6 +299,12 @@ body {
 .takeworld-section {
   padding: 6rem 0 8rem 0;
 }
+@media screen and (max-width: 767px) {
+  .takeworld-section {
+    padding: 4rem 0 6rem 0;
+    text-align: center;
+  }
+}
 .takeworld-section h1 {
   font-size: 2.7rem;
   text-transform: uppercase;
@@ -301,6 +333,12 @@ body {
   display: flex;
   align-items: center;
   grid-gap: 15px;
+}
+@media screen and (max-width: 767px) {
+  .takeworld-section .actions {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
 }
 .takeworld-section .actions .telegram-btn svg {
   width: 60px;
