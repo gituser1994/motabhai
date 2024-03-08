@@ -17,6 +17,28 @@ body {
     background-size: 100% 100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #7A031C;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $color-secondary;
+    border-radius: 6px;
+    box-shadow: none;
+  }
+
 .btn {
     &.btn-primary {
         background: $color-primary;
